@@ -42,11 +42,28 @@ body{
     -webkit-text-fill-color: transparent;
  }
  .F2{
-    background: -webkit-linear-gradient(rgb(229, 71, 71), rgb(226, 8, 8));
+    background: -webkit-linear-gradient(rgb(245, 241, 241),     rgb(82, 80, 80));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     text-align: center;
+    font-size: 40px;
  }
+
+.ksz{
+    margin-top: 10vh;
+    text-align: center;
+    font-family: 'The Halloween', sans-serif;
+    background-color: rgb(172, 44, 44);
+    border: 10px solid rgb(2, 2, 2);
+    
+}
+
+.alert {
+    padding: 20px;
+    background-color: #f44336; 
+    color: white;
+    margin-bottom: 15px;
+  }
  
 .icons{
     margin-left: auto;
