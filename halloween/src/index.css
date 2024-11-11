@@ -1,0 +1,40 @@
+ @import url('https://fonts.cdnfonts.com/css/the-halloween');
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: hsl(0, 3%, 6%);
+}
+
+
+ nav {
+     background-color: black;
+     display: flex;
+     justify-content: center;
+ }
+
+ ul {
+     display: flex;
+     list-style-type: none;
+     color: white;
+     display: flex;
+ }
+
+ ul li {
+     padding: 2vh;
+ }
+
+ .nlinks {
+     text-decoration: none;
+     color: white;
+     font-family: 'The Halloween', sans-serif;
+ }
+
+
+
+ .flinks {
+     text-decoration: none;
+     color: rgb(190, 22, 22);
+     font-family: 'The Halloween', sans-serif;
+
+ }
