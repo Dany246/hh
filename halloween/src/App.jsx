@@ -5,6 +5,7 @@ function App() {
   return (
     <>
      <h1>Halloween!</h1>
+     <h2>Ijesztő!</h2>
     </>
   )
 }
