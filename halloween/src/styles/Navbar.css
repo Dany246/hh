@@ -1,0 +1,37 @@
+
+ .navbarH {
+     background-color: black;
+     display: flex;
+     justify-content:first baseline center;
+     align-items: center;
+ }
+ .navbarH ul {
+
+     list-style-type: none;
+     color: white;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+ .navbarH ul li {
+     padding: 2vh;
+     
+ }
+ .nlinks {
+     text-decoration: none;
+     color: white;
+     font-family: 'The Halloween', sans-serif;
+ }
+ .flinks {
+     text-decoration: none;
+     color: rgb(149, 0, 0);
+     font-family: 'The Halloween', sans-serif;
+
+ }
+ .icons{
+    margin-left: auto;
+    padding: 2vh;
+}
+.icons a{
+    padding: 2vh;
+}

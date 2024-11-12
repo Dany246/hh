@@ -1,7 +1,12 @@
+import '../styles/Filmek.css'
+
+import NavigationExample from "../Components/Navigationexample"
+
 const Filmek = () => {
     return (
         <>
-            <h1>Filmek</h1>
+            <NavigationExample/>
+        
         </>
     )
 }

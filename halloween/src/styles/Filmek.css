@@ -1,0 +1,47 @@
+.FI1{
+    text-align: center;
+    font-family: 'The Halloween', sans-serif;
+    
+    background: -webkit-linear-gradient(rgb(241, 12, 12), rgb(0, 0, 0));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+ }
+ .FI2{
+    background: -webkit-linear-gradient(rgb(170, 2, 2),     rgb(91, 3, 3));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    font-size: 40px;
+ 
+ }  
+
+ #buttonF{
+   font-size: 16px;
+   background-color: #9d0c01;
+   border-radius: 12px;
+font-weight: bold;
+ }
+
+ .navbarF {
+   background-color: black;
+   display: flex;
+   justify-content:center;
+   align-items: center;
+}
+.navbarF ul {
+
+   list-style-type: none;
+   color: white;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.navbarF ul li {
+   padding: 2vh;
+   
+}
+
+.content{
+   text-align: center;
+
+}
