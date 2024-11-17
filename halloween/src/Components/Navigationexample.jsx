@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import JamieLeeCurtis from './Szereplokartyak/1';
 
 
 const NavigationExample = () => {
@@ -22,7 +23,7 @@ const NavigationExample = () => {
               onClick={() => handleNavClick('section1')}
               className={activeSection === 'section1' ? 'active' : ''}
             >
-              Szekció 1
+              Alaptörténet
             </button>
           </li>
           <li>
@@ -30,7 +31,7 @@ const NavigationExample = () => {
               onClick={() => handleNavClick('section2')}
               className={activeSection === 'section2' ? 'active' : ''}
             >
-              Szekció 2
+              Szereplők
             </button>
           </li>
           <li>
@@ -57,15 +58,19 @@ const NavigationExample = () => {
       <div className="content">
         {activeSection === 'section1' && (
           <div>
-            <h2 className='FI2'>Tartalom 1</h2>
-            <p>Ez az első szekció tartalma, amely akkor jelenik meg, ha az első navigációs gombra kattintasz.</p>
+            <h2 className='FI2'>Alaptörténet</h2>
+            <div className='T11'>
+              <p className='T1'>1963-ban halloween éjszakáján egy fiatal lány, Judith lefekszik barátjával. Az aktus után a fiú elmegy, valaki pedig egy álarcban beoson a szobába, és több késszúrással végez a lánnyal. Ezután kimegy a ház elé, ahol egy házaspár megszólítja őt, és leveszik a maszkot az arcáról. Kiderül hogy a gyilkos a hatéves Michael, Judith öccse.
+
+15 évvel később, 1978. október 30.-án egy esős éjszakán, egy pszichológus és egy ápolónő a Smith's Grove-i elmegyógyintézetbe tart. Útjuk során megtudjuk hogy Dr. Loomis, Michael Myers kezelőorvosa. Odaérvén a szanatóriumba, látják hogy a betegek szabadon járkálnak, kint az udvaron. Loomis épp belépne az intézet kapuján, amikor az egyik beteg ráugrik az autóra és az ápolónő Marion, ijedtében kiszáll abból, a férfi pedig elhajt az éjszakában. Megtudjuk, hogy Myers szökött meg. </p>
+            </div>
           </div>
         )}
 
         {activeSection === 'section2' && (
           <div>
-            <h2 className='FI2'>Tartalom 2</h2>
-            <p>Ez a második szekció tartalma, amely akkor jelenik meg, ha a második navigációs gombra kattintasz.</p>
+            <h2 className='FI2'>Szereplők</h2>
+            <p><JamieLeeCurtis/></p>
           </div>
         )}
 
