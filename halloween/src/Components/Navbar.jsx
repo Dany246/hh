@@ -25,7 +25,7 @@ export default function Navbar() {
                 <li><a className={activePath === "/" ? "flinks" : "nlinks"} onClick={handleClick} href="/">Fooldal</a></li> 
                 <li><a className={activePath === "/unnep" ? "flinks" : "nlinks"} onClick={handleClick} href="/unnep">Halloween unnep</a></li>
             </ul>
-            <ul class="w-16 md:w-32 lg:w-48" className="icons">
+            <ul  className="icons">
                 <a href=""><Facebook color="red" size={35}/></a>
                 <a href=""><Instagram color="red" size={35}/></a>
                 <a href=""><Github color="red" size={35}/></a>
