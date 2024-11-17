@@ -1,5 +1,8 @@
 import React, { useState } from 'react';
 import JamieLeeCurtis from './Szereplokartyak/1';
+import NancyKyes from './Szereplokartyak/2';
+import DonaldPleasence from './Szereplokartyak/3';
+import Nick from './Szereplokartyak/4';
 
 
 const NavigationExample = () => {
@@ -70,7 +73,12 @@ const NavigationExample = () => {
         {activeSection === 'section2' && (
           <div>
             <h2 className='FI2'>Szereplők</h2>
-            <p><JamieLeeCurtis/></p>
+            <div className='Kartyak'>
+              <p className='CardsEZ'><JamieLeeCurtis/></p>
+              <p className='CardsEZ'><NancyKyes/></p>
+              <p className='CardsEZ'><DonaldPleasence/></p>
+              <p className='CardsEZ'><Nick/></p>
+            </div>
           </div>
         )}
 

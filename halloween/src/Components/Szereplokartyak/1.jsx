@@ -18,13 +18,17 @@ const JamieLeeCurtis = () => {
       <p className='KartyakNev2'>Lauri Strode</p>
       {showMore && (
         <p className='KartyakSzoveg'>
-          Itt egy hosszabb szöveg, amely akkor jelenik meg, amikor a gombra kattintasz. 
-          Ez a szöveg további információkat ad a kártyáról.
+         Jamie Lee Curtis Oscar-, BAFTA-, valamint kétszeres Golden Globe-díjas amerikai színésznő, író. Laurie Strode szerepében debütált a mozivásznon John Carpenter Halloween – A rémület éjszakája című 1978-as horrorfilmjében, mellyel megalapozta Sikolykirálynő státuszát.
         </p>
       )}
       <button onClick={handleButtonClick} style={styles.button}>
         {showMore ? 'Kevesebb' : 'Több információ'}
       </button>
+      <img
+        src="../public/szereplok/Jamilee2.jpg"
+        alt="Card Image"
+        style={styles.image}
+      />
     </div>
   );
 };
@@ -40,6 +44,7 @@ const styles = {
     backgroundColor: '#9d0c01',
   },
   image: {
+    paddingTop: '10px',
     width: '100%',
     height: '150px',
     objectFit: 'cover',

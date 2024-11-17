@@ -67,3 +67,12 @@ font-weight: bold;
 .Kartyakszoveg{
 
 }
+.Kartyak{
+   display: flex;
+   justify-content:center;
+   
+}
+.CardsEZ{
+   padding:1vh;
+
+}
