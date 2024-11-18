@@ -48,12 +48,13 @@ font-weight: bold;
    border-radius: 15px;
    border: #9d0c01 5px solid;
    font-weight: bold;
- 
+   padding: 0 2vh;
+   margin: 0 1vh;
 }
 .T1{
    font-size: 3vh;
    background-color:#9d0c01 ;
-
+   
 }
 
 .KartyakNev{

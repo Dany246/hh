@@ -1,0 +1,9 @@
+.ubk {
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    border: #9d0c01 3px solid;
+    font-weight: bold;
+    padding: 0 2vh;
+    margin: 0 1vh;
+}

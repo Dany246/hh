@@ -37,22 +37,6 @@ const NavigationExample = () => {
               Szereplők
             </button>
           </li>
-          <li>
-            <button id='buttonF'
-              onClick={() => handleNavClick('section3')}
-              className={activeSection === 'section3' ? 'active' : ''}
-            >
-              Szekció 3
-            </button>
-          </li>
-          <li>
-            <button id='buttonF'
-              onClick={() => handleNavClick('section4')}
-              className={activeSection === 'section4' ? 'active' : ''}
-            >
-              Szekció 4
-            </button>
-          </li>
         </ul>
       </nav>
       <h1 className="FI1">Halloween Franchise</h1>
@@ -79,20 +63,6 @@ const NavigationExample = () => {
               <p className='CardsEZ'><DonaldPleasence/></p>
               <p className='CardsEZ'><Nick/></p>
             </div>
-          </div>
-        )}
-
-        {activeSection === 'section3' && (
-          <div>
-            <h2 className='FI2'>Tartalom 3</h2>
-            <p>Ez a harmadik szekció tartalma, amely akkor jelenik meg, ha a harmadik navigációs gombra kattintasz.</p>
-          </div>
-        )}
-
-        {activeSection === 'section4' && (
-          <div>
-            <h2 className='FI2'>Tartalom 4</h2>
-            <p>Ez a negyedik szekció tartalma, amely akkor jelenik meg, ha a negyedik navigációs gombra kattintasz.</p>
           </div>
         )}
       </div>
